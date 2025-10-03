@@ -24,12 +24,13 @@ Création d'une application microservices complexe avec 22 services répartis en
   - [x] Corriger index.css (suppression du centrage)
 
 ### 1.2 Services Backend Node.js ⏳ EN COURS
-- [ ] **API Users (Express.js)**
-  - [ ] Créer le dossier `api-users/`
-  - [ ] Initialiser avec `npx express-generator api-users`
-  - [ ] Configurer les routes utilisateurs
-  - [ ] Intégrer la connexion PostgreSQL
-  - [ ] Implémenter les endpoints CRUD utilisateurs
+- [x] **API Users (Express.js)** ✅
+  - [x] Créer le dossier `api-users/`
+  - [x] Initialiser avec `npx express-generator api-users`
+  - [x] Configurer les routes utilisateurs (CRUD complet)
+  - [x] Intégrer la connexion PostgreSQL
+  - [x] Implémenter les endpoints CRUD utilisateurs
+  - [x] Ajouter CORS, dotenv, nodemon
 
 - [ ] **API Data (Express.js)**
   - [ ] Créer le dossier `api-data/`
