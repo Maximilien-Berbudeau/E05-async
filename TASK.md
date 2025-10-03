@@ -23,36 +23,22 @@ Création d'une application microservices complexe avec 22 services répartis en
   - [x] Tester le build local
   - [x] Corriger index.css (suppression du centrage)
 
-### 1.2 Services Backend Node.js ⏳ EN COURS
+### 1.2 Services Backend Node.js ✅ COMPLÉTÉ + SÉCURISÉ
 - [x] **API Users (Express.js)** ✅
   - [x] Créer le dossier `api-users/`
-  - [x] Initialiser avec `npx express-generator api-users`
-  - [x] Configurer les routes utilisateurs (CRUD complet)
-  - [x] Intégrer la connexion PostgreSQL
-  - [x] Implémenter les endpoints CRUD utilisateurs
-  - [x] Ajouter CORS, dotenv, nodemon
+  - [x] CRUD complet + PostgreSQL + init.sql
 
-- [ ] **API Data (Express.js)**
-  - [ ] Créer le dossier `api-data/`
-  - [ ] Initialiser avec `npx express-generator api-data`
-  - [ ] Configurer les routes données métier
-  - [ ] Intégrer la connexion PostgreSQL
-  - [ ] Implémenter les endpoints CRUD données
+- [x] **API Data (Express.js)** ✅
+  - [x] Créer le dossier `api-data/`
+  - [x] CRUD complet + PostgreSQL + init.sql
 
-- [ ] **Service Security (Express.js)**
-  - [ ] Créer le dossier `security/`
-  - [ ] Initialiser avec `npx express-generator security`
-  - [ ] Implémenter l'authentification JWT
-  - [ ] Configurer les ACL (Access Control Lists)
-  - [ ] Intégrer la connexion PostgreSQL ACM
-  - [ ] Implémenter la validation des tokens
+- [x] **Service Security (Express.js)** ✅
+  - [x] Créer le dossier `security/`
+  - [x] JWT auth + ACL + bcrypt + init.sql
 
-- [ ] **Logger (Express.js)**
-  - [ ] Créer le dossier `logger/`
-  - [ ] Initialiser avec `npx express-generator logger`
-  - [ ] Implémenter la réception des messages Redis
-  - [ ] Configurer la connexion MongoDB
-  - [ ] Implémenter le stockage des logs
+- [x] **Logger (Express.js)** ✅
+  - [x] Créer le dossier `logger/`
+  - [x] Redis subscriber + MongoDB storage
 
 ## Phase 2: Dockerfile multi-stage pour chaque service
 

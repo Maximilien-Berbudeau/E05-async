@@ -8,7 +8,11 @@ const usersRouter = require('./routes/users');
 const app = express();
 
 // Middlewares
-app.use(cors());
+const corsOptions = {
+  origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:8080'],
+  credentials: true
+};
+app.use(cors(corsOptions));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
